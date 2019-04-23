@@ -1,0 +1,127 @@
+@tree: cascadertree;
+@treeitem: tree-item;
+@activebg: #fff;
+@emptybg: #e6f7ff;
+@bordercl: #ebedf0;
+@previewmaxheight: 200px;
+@treewmaxheight: 320px;
+@treegroupmaxwidth: 320px;
+
+.@{tree} {
+  &-previeww {
+    margin-bottom: 8px;
+    display: flex;
+    border: 1px solid @bordercl;
+    border-radius: 4px;
+    max-height: @previewmaxheight;
+    overflow-y: auto;
+
+    .@{tree}-previewinner {
+      padding: 8px 0 0 8px;
+      flex: 1;
+
+      & > * {
+        margin-bottom: 2px;
+      }
+    }
+
+    .@{tree}-clearw {
+      padding: 8px;
+      width: 30px;
+      cursor: pointer;
+    }
+  }
+
+  &-cascadergroupw {
+    .@{tree}-cascadergroupinner {
+      display: flex;
+
+      .@{tree}-cascadergroup {
+        padding: 8px;
+        flex: 1;
+        max-width: @treegroupmaxwidth;
+        height: @treewmaxheight;
+        overflow-y: auto;
+        border: 1px solid @bordercl;
+        border-radius: 4px;
+
+        & + .@{tree}-cascadergroup {
+          margin-left: 8px;
+        }
+
+        ul {
+          margin-block-start: 0px;
+          margin-block-end: 0px;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+          padding-inline-start: 0px;
+
+          .@{treeitem} {
+            display: flex;
+
+            &:hover {
+              background: @activebg;
+            }
+
+            .@{treeitem}-selector {
+              margin-right: 8px;
+            }
+
+            .@{treeitem}-text {
+              flex: 1;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+            }
+
+            .@{treeitem}-expand-placeholder {
+              margin-left: 8px;
+              cursor: pointer;
+            }
+
+            .@{treeitem}-expand {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-collapsew {
+    margin-bottom: 8px;
+
+    .@{tree}-triggerw {
+      text-align: center;
+    }
+  
+    .@{tree}-contentw {
+    }
+  
+    .@{tree}-innerw {
+      transition: height .3s;
+      border: 1px solid transparent;
+      border-radius: 4px;
+    }
+
+    &.@{tree}-collapsew-close {
+        overflow-y: hidden;
+        border: transparent;
+        
+      .@{tree}-innerw {
+        height: 0;
+        padding: 0;
+        border: transparent;
+        overflow-y: hidden;
+      }
+    } 
+  }
+
+  &-empty {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 50px;
+    background: @activebg;
+  }
+}

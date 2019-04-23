@@ -1,0 +1,16 @@
+{
+  "name": "jz-tool-copy-dva-template-demoProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@alipay/jz-tool-copy-dva-template": "^0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "copyTemplate": "jz-tool-copy-dva-template --src service --target service",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,103 @@
+.errorList {
+  margin-bottom: 0;
+  display: inline-block;
+  max-width: 400px;
+  max-height: 300px;
+  overflow: auto;
+
+  &.errorListLg {
+    max-width: 600px;
+
+    .errorListItem {
+      width: 600px;
+    }
+  }
+
+  .errorListItem {
+    width: 400px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.85);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:hover {
+      background: #e6f7ff;
+    }
+
+    &.hidden {
+      .errorIcon {
+        color: rgba(0, 0, 0, 0.65);
+      }
+      .errorMessage {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.65);
+      }
+
+      &:hover {
+        background: #fff;
+        cursor: not-allowed;
+      }
+    }
+
+    :global {
+      .anticon {
+        &.anticon-cross-circle-o {
+          margin-right: 8px;
+          height: 28px;
+          line-height: 28px;
+          vertical-align: top;
+        }
+      }
+    }
+
+    .errorIcon {
+      cursor: pointer;
+      width: 12px;
+      color: #f5222d;
+    }
+    .errorMessage {
+      margin-right: 8px;
+      display: inline-block;
+      overflow-x: auto;
+      color: #f5222d;
+      cursor: pointer;
+
+      & + div {
+        padding-right: 16px;
+        display: inline-block;
+        float: right;
+      }
+    }
+  }
+}
+
+.errorTitle {
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.errorContainer {
+  position: fixed;
+  top: 0;
+  left: 250px;
+  z-index: 1001;
+  padding: 16px 24px;
+  font-size: 14px;
+  color: #f5222d;
+  background: #fff;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
+  border-color: #000;
+
+  :global {
+    .anticon {
+      margin-right: 8px;
+    }
+  }
+}
+
+.errorContainer1 {
+  z-index: 1001;
+}

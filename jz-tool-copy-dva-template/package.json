@@ -1,0 +1,37 @@
+{
+  "name": "@alipay/jz-tool-copy-dva-template",
+  "version": "0.0.4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shifei.sf@antfin.com",
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.alipay-inc.com/shifei.sf/jz-tool-copy-dva-template"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": ">=4"
+  },
+  "description": "",
+  "bin": {
+    "jz-tool-copy-dva-template": "./bin/jz-tool-copy-dva-template.js"
+  },
+  "dependencies": {
+    "chalk": "1.1.3",
+    "commander": "2.18.0",
+    "copy-template-dir": "^1.4.0",
+    "cross-spawn": "^6.0.5",
+    "envinfo": "5.11.1",
+    "fs-extra": "5.0.0",
+    "hyperquest": "2.1.3",
+    "semver": "5.5.1",
+    "tar-pack": "3.4.1",
+    "tmp": "0.0.33",
+    "validate-npm-package-name": "3.0.0"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  }
+}

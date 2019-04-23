@@ -1,0 +1,180 @@
+/* 触发预览弹层打开的图标样式 */
+.preview-trigger {
+    .json-preview-trigger {
+      padding: 0 8px;
+      display: inline-block;
+      width: 0;
+      height: 0;
+      line-height: 0;
+      border-radius: 50%;
+      opacity: 0;
+    }
+    &.visible {
+      .json-preview-trigger {
+        width: 74px;
+        height: 74px;
+        line-height: 74px;
+        color: #fff;
+        cursor: pointer;
+        opacity: 0.7;
+        border: 1px solid #fe007f;
+        background: #fe007f;
+  
+        &:hover {
+          transition: opacity 0.3s ease-in-out;
+          transition: width 0.3s ease-in-out;
+          transition: height 0.3s ease-in-out;
+          transition: line-height 0.3s ease-in-out;
+  
+          opacity: 0.9;
+          width: 86px;
+          height: 86px;
+          line-height: 86px;
+        }
+  
+        .anticon {
+          margin-right: 4px;
+        }
+      }
+    }
+  }
+  
+  /* MODE为COMPONENT时，触发json编辑的图标样式 */
+  .json-editor-trigger {
+    .editor-trigger {
+      cursor: pointer;
+  
+      &.disabled {
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  .json-page-wrapper {
+    .json-page-header {
+      display: flex;
+      justify-content: space-between;
+  
+      .anticon-close {
+        font-size: 24px;
+        cursor: pointer;
+      }
+    }
+    .json-toolbox-title {
+      padding-top: 8px;
+    }
+  }
+  
+  .json-editor-toolbar {
+    display: inline-block;
+    width: auto;
+  
+    .json-editor-toolbar-inner {
+      padding: 8px;
+      display: flex;
+      background: #f8f8f8;
+      border: 1px solid #f8f8f8;
+      border-radius: 4px;
+  
+      .json-toolbox-title {
+        margin-right: 16px;
+        padding-right: 8px;
+        display: inline-block;
+        width: 86px;
+        line-height: 1;
+        font-size: 15px;
+        font-weight: bold;
+        border-right: 2px solid #ddd;
+      }
+  
+      ul {
+        margin-bottom: 0;
+        padding: 0;
+        flex: 1;
+        list-style-type: none;
+  
+        li {
+          margin-right: 16px;
+          display: inline-block;
+        }
+      }
+  
+      .toolbar-item {
+        display: inline-block;
+  
+        .toolbar-header {
+          display: inline-block;
+          margin-right: 4px;
+          font-size: 14px;
+        }
+  
+        .toolbar-body {
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  .preview-trigger {
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+  }
+  
+  .preview-controller {
+    .preview-wrapper {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1100;
+      width: 0;
+      height: 0;
+      overflow: hidden;
+      background: #ccc;
+  
+      transition: width 0.6s ease-in-out;
+      transition: height 0.6s ease-in-out;
+      
+      .preview-wrapper-inner {
+        padding: 16px 32px;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+      }
+    }
+    &.open {
+      .preview-wrapper {
+        width: 100%;
+        height: 100vh;
+  
+        transition: width 0.6s ease-in-out;
+        transition: height 0.6s ease-in-out;
+  
+        .preview-wrapper-head {
+          display: flex;
+          justify-content: space-between;
+  
+          .json-preview-header {
+            width: 100%;
+            font-size: 18px;
+          }
+  
+          .anticon-close {
+            font-size: 24px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    &.close {
+      width: 0;
+      height: 0;
+  
+      transition: width 0.6s ease-in-out;
+      transition: height 0.6s ease-in-out;
+    }
+  }
+  
+  

@@ -1,0 +1,88 @@
+@bizTable: bizTable;
+@tableColumn: table-column;
+@clipboard: clipboard-wrap;
+@activebg: #fff;
+@emptybg: #e6f7ff;
+@bordercl: #ebedf0;
+
+.@{bizTable} {
+  &-empty {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 50px;
+    background: @activebg;
+  }
+}
+
+.@{tableColumn} {
+  display: flex;
+
+  &-content {
+    flex: 1;
+  }
+
+  &-colordot {
+    margin-right: 8px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid transparent;
+  }
+
+  &-ellipsis {
+    .@{tableColumn}-content {
+      display: inline-block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+
+  &-multiEllipsis {
+    .@{tableColumn}-content {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;  
+    }
+  }
+
+  &-prefixed {
+    .@{tableColumn}-prefix {
+      margin-right: 8px;
+      /* todo 考虑多个的情况 */
+      width: 32px;
+    }
+  }
+
+  &-suffixed {
+    .@{tableColumn}-suffix {
+      margin-left: 8px;
+      /* todo 考虑多个的情况 */
+      width: 32px;
+    }
+  }
+
+  &-textright {
+    .@{tableColumn}-content {
+      text-align: right;
+    }
+  }
+}
+
+.hiddeninput {
+  position: fixed;
+  bottom: 0;
+  left: -200px;
+  z-index: 1;
+}
+
+.@{clipboard} {
+  display: inline-block;
+  float: right;
+  cursor: pointer;
+  color: #108ee9;
+}

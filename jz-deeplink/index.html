@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>deeplink开发页面</title>
+    <meta name="Alipay:title" content="未命名页面" />
+    <meta name="data-bizType" content="FDCloud"/>
+    <meta name="data-aspm" content="a247"/>
+    <style>
+        body {
+            background-color: #EDEDED;
+        }
+        h2 {
+            text-align: center;
+        }
+        .back {
+            position: fixed;
+            top: 50%;
+            right: 0;
+            background: red;
+            display: inline-block;
+            width: 200px;
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            font-size: 24px;
+            border-radius: 8px 0 0 8px;
+            border: 1px solid red;
+            cursor: pointer;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="content" id="content">
+      <h2>渠道中打开的广告页</h2>
+      <span class="back">
+        <!-- https://render.alipay.com/p/n/js9qbx76 -->
+        <!-- <a class="tip" href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Frender.alipay.com%2Fp%2Fn%2Fjs9qbx76%3Fbailing_media%3Doppo%26__webview_options__%3D">toAlipay</a> -->
+        <!-- <a class="tip" href="alipays://platformapi/startapp?appId=20000180&url=%2fwww%2fpages%2findex.htm%3fbizScenario%3d210023%26bailing_media%3doppo">toAlipay</a> -->
+        <a class="tip" href="
+alipays://platformapi/startapp?appId=20000067&url=alipays%3A%2F%2Fplatformapi%2Fstartapp%3FappId%3D20000180%26url%3D%252fwww%252fpages%252findex.htm%253fbizScenario%253d210023%2526bailing_media%253doppo%26__webview_options__%3D">toAlipay</a>
+        <!-- <a class="tip" href="alipays://platformapi/startapp?appId=20000067&url=%2fwww%2fpages%2findex.htm%3fbizScenario%3d210023%26bailing_media%3doppos">toAlipay</a> -->
+      </span>
+    </div>
+</body>
+</html>

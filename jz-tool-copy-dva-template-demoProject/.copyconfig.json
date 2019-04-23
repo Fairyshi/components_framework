@@ -1,0 +1,22 @@
+{
+  "src": {
+    "dir": "",
+    "root": "./.copyTemplates"
+  },
+  "target": {
+    "dir": "",
+    "root": "App"
+  },
+  "injectedVars": {
+    "appNamespace": "appFoo",
+    "ContainerName": "AppFoo",
+    "getDetail": "getFoo",
+    "getOtherList": "getBars",
+    "getList": "getFoos",
+    "enableListItem": "enableFoo",
+    "deleteListItem": "deleteFoo",
+    "PureComponentName": "PureComponentName",
+    "ClassComponent": "ClassComponentName"
+  }
+}
+  

@@ -1,0 +1,51 @@
+@tree: cascadertree;
+@treeitem: tree-item;
+@activebg: #fff;
+@emptybg: #e6f7ff;
+@bordercl: #ebedf0;
+@previewmaxheight: 200px;
+@treewmaxheight: 320px;
+
+.ant-select {
+  &.isanyselected {
+    .ant-select-selection__placeholder,
+    .ant-select-arrow {
+      color: rgba(0,0,0,0.65);
+    }
+  }
+}
+
+.@{tree} {
+  &-previeww {
+    margin-bottom: 8px;
+    display: flex;
+    border: 1px solid @bordercl;
+    border-radius: 4px;
+    max-height: @previewmaxheight;
+    overflow-y: auto;
+
+    .@{tree}-previewinner {
+      padding: 8px 0 0 8px;
+      flex: 1;
+
+      & > * {
+        margin-bottom: 8px;
+      }
+    }
+
+    .@{tree}-clearw {
+      padding: 8px;
+      width: 30px;
+      cursor: pointer;
+    }
+  }
+
+
+  &-empty {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 50px;
+    background: @activebg;
+  }
+}

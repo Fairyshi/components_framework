@@ -1,0 +1,31 @@
+{
+  "name": "@alipay/jz-media-back",
+  "version": "0.0.13",
+  "description": "recall media app function in ad h5 page of bailing dsp",
+  "module": "src/index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "recall",
+    "media",
+    "app",
+    "trigger",
+    "and",
+    "the",
+    "logics"
+  ],
+  "author": "shifei.sf",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  }
+}

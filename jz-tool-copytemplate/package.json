@@ -1,0 +1,16 @@
+{
+  "name": "jz-tool-copytemplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "copy-template-dir": "^1.4.0",
+    "enfscopy": "^1.0.1",
+    "path.join": "^1.0.0"
+  }
+}

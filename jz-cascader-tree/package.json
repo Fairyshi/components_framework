@@ -1,0 +1,94 @@
+{
+  "name": "@alipay/jz-cascader-tree",
+  "version": "0.0.16",
+  "description": "jz-cascader-tree ui component for react",
+  "keywords": [
+    "react",
+    "react-component",
+    "jz-cascader-tree",
+    "tree"
+  ],
+  "homepage": "https://gitlab.alipay-inc.com/shifei.sf/jz-cascader-tree/issues",
+  "author": "shifei.sf@antfin.com",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.alipay-inc.com/shifei.sf/jz-cascader-tree"
+  },
+  "bugs": {
+    "url": "https://gitlab.alipay-inc.com/shifei.sf/jz-cascader-tree/issues"
+  },
+  "files": [
+    "assets/*.css",
+    "assets/*.png",
+    "assets/*.gif",
+    "dist",
+    "es",
+    "lib"
+  ],
+  "license": "MIT",
+  "main": "./lib/index",
+  "module": "./es/index",
+  "config": {
+    "port": 8036,
+    "entry": {
+      "@alipay/jz-cascader-tree": [
+        "./assets/index.less",
+        "./src/index.js"
+      ]
+    }
+  },
+  "scripts": {
+    "build": "rc-tools run build",
+    "dist": "rc-tools run dist",
+    "compile": "rc-tools run compile --babel-runtime",
+    "gh-pages": "rc-tools run gh-pages",
+    "start": "rc-tools run server",
+    "pub": "rc-tools run pub --babel-runtime",
+    "lint": "rc-tools run lint",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "jest": {
+    "setupFiles": [
+      "./tests/setup.js"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "transform": {
+      "\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+    },
+    "testURL": "http://localhost"
+  },
+  "devDependencies": {
+    "antd": "3.11.0",
+    "enzyme": "^3.1.1",
+    "enzyme-adapter-react-16": "^1.0.4",
+    "enzyme-to-json": "^3.3.3",
+    "jest": "^23.4.1",
+    "pre-commit": "1.x",
+    "rc-tools": "8.x",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "prop-types": "^15.5.10"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "peerDependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "prop-types": "^15.5.10",
+    "antd": "3.11.0"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "classnames": "^2.2.1"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  }
+}

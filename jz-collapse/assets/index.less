@@ -1,0 +1,51 @@
+@collapse: collapse;
+@activebg: #fff;
+@emptybg: #e6f7ff;
+@bordercl: #ebedf0;
+
+.collapsew {
+  :global {
+    .flex-main > * {
+      margin-bottom: 16px;
+    }
+  }
+  &.collapsewopen {
+    .cascaderttriggerw {
+        text-align: right;
+    }
+  }
+  .collapsetriggerw {
+    margin-left: 8px;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+  }
+}
+
+:global {
+  .flex-wrap {
+    display: flex;
+
+    .flex-main {
+      flex: 1;
+    }
+
+    &.flex-justify {
+      justify-content: space-between;
+
+      .text-right {
+        text-align: right;
+      }
+    }
+  }
+}
+
+.@{collapse} {
+  &-empty {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 50px;
+    background: @activebg;
+  }
+}

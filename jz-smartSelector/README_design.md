@@ -36,14 +36,14 @@ import SmartSelector from '@/component/SmartSelector';
 <a name="029b0af4"></a>
 ## 栗子
 <a name="348091da"></a>
-### ![ss1.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1547791126028-8a499bdf-13aa-48b1-b548-b13373b1e8f7.png#align=left&display=inline&height=340&name=ss1.png&originHeight=1324&originWidth=1778&size=183667&width=457)
+### ![ss1.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/SmartSelector9.png)
 
-![ss2.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1547791147584-5616fd2e-9ced-440a-9ee0-d59075c53e6f.png#align=left&display=inline&height=336&name=ss2.png&originHeight=1312&originWidth=1790&size=180007&width=458)
+![ss2.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/SmartSelector10.png)
 
-![ss3.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1547791161733-7ba8ce45-3d07-4816-9e4e-9856a6ef11d7.png#align=left&display=inline&height=365&name=ss3.png&originHeight=1482&originWidth=1854&size=212544&width=457)
+![ss3.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/SmartSelector11.png)
 
 
-![smartselector.gif](https://intranetproxy.alipay.com/skylark/lark/0/2019/gif/15078/1547791194152-ea469cdd-c534-4fc8-8daf-5034c0ec68a6.gif#align=left&display=inline&height=331&name=smartselector.gif&originHeight=642&originWidth=910&size=7005753&width=469)
+![smartselector.gif](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/SmartSelector12.gif)
 <a name="API"></a>
 ## API
 见[组件设计](https://yuque.antfin-inc.com/shifei.sf/wgecwq/bq316x) [](https://yuque.antfin-inc.com/shifei.sf/wgecwq/bq316x)<br />

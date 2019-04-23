@@ -2,7 +2,7 @@
 
 <a name="7e8b2fa2"></a>
 ## 效果
-![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1555053847754-80bc7254-c1b8-4bef-b4c4-7443038fc617.png#align=left&display=inline&height=127&name=image.png&originHeight=193&originWidth=1136&size=23682&status=done&width=746)
+![image.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/g6Tree.png)
 
 
 <a name="eed333e9"></a>

@@ -57,14 +57,14 @@ import CascaderTree from '@/component/CascaderTree';
 []()<a name="a3b69b86"></a>
 ### 基础使用栗子
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1546483855900-bf70549d-3502-45e7-bd06-8a29f82a18d6.png#alt=undefined)<br />
-![](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1546483872929-d95e8087-b9bf-4bff-9b23-42c78eab32c1.png#alt=undefined)<br />
-![](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1546483880367-5048dd99-cc8e-4af6-a2bd-f4ffc4d81e68.png#alt=undefined)
+![](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/cascaderTree1.png)<br />
+![](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/cascaderTree2.png)<br />
+![](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/cascaderTree3.png)
 
 []()<a name="6a4909f9"></a>
 ### 地理位置数据栗子
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1546483889840-b1e8df03-fc8b-4b39-909f-3fd2818341d1.png#alt=undefined)
+![](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/cascaderTree4.png)
 
 <a name="API"></a>
 ## API

@@ -6,16 +6,10 @@ tree ui component for react
 [![NPM version][npm-image]][npm-url]
 
 ## Screenshots
-
-<img src="https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1546397911557-43c6bb84-b355-42a3-ab69-52c1351f9b85.png" width="600"/>
-
-<img src="https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1546397920584-4fbc1dd7-6f54-40a6-9600-80e22dfbe776.png" width="600"/>
-
-<img src="https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1546397928119-267b78c9-5fc3-4e69-874b-f52e5300d52b.png" width="600"/>
-
-<img src="https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1546484995319-ba7ad758-bc02-4d92-8047-51e4197fb943.png" width="600"/>
-
-<img src="https://intranetproxy.alipay.com/skylark/lark/0/2019/gif/15078/1546487518271-375cad5f-6054-4d6c-a641-d21818bc4aeb.gif" width="600"/>
+![](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/cascaderTree5.png)
+![](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/cascaderTree6.png)
+![](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/cascaderTree7.png)
+![](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/cascaderTree8.gif)
 
 ## Feature
 

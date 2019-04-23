@@ -5,18 +5,21 @@
 
 业务中常常需要对树形数据的展示和操作。一般地，会从层级(如`antd-Tree`)和深度两个维度进行结构化展示，`CascaderTree`从径向对树节点的路径进行横向平铺展示。支持树节点的选择（单|多）、自定义渲染、选择结果基于树结构进行合并、选择结果预览等功能。具体应用如地理位置、行政区划数据的平铺展示。
 
+[设计与实现点这里](https://github.com/Fairyshi/components_framework/blob/master/jz-cascader-tree/README_design.md) 
+[调用与接口明细点这里](https://github.com/Fairyshi/components_framework/blob/master/jz-cascader-tree/README_doc.md) 
+
 []()<a name="da441097"></a>
 ## 代码演示
 
 []()<a name="20def794"></a>
 ### 图片
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1546484995319-ba7ad758-bc02-4d92-8047-51e4197fb943.png#alt=undefined)
+![](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/cascaderTree9.png)
 
 <a name="Gif"></a>
 ### Gif
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2019/gif/15078/1546487518271-375cad5f-6054-4d6c-a641-d21818bc4aeb.gif#alt=areaTree.gif)
+![](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/cascaderTree10.gif)
 
 <a name="API"></a>
 ## API

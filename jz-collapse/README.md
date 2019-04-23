@@ -35,11 +35,11 @@ import Collapse from '@/component/Collapse';
 <a name="029b0af4"></a>
 ## 栗子
 <a name="60bf8447"></a>
-### ![clps1.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1547798154217-8c36ce92-ad6c-48c3-9873-e4daaec7c127.png#align=left&display=inline&height=100&name=clps1.png&originHeight=494&originWidth=2828&size=83343&width=573)
+### ![clps1.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/collapse1.png)
 
-![clps2.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1547798162820-cd4d862b-ca24-4089-b618-eb63a2aa9917.png#align=left&display=inline&height=130&name=clps2.png&originHeight=634&originWidth=2808&size=163150&width=578)
+![clps2.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/collapse2.png)
 
-![clps.gif](https://intranetproxy.alipay.com/skylark/lark/0/2019/gif/15078/1547798185532-e0933eb7-497c-444d-8b4e-133036d73f96.gif#align=left&display=inline&height=195&name=clps.gif&originHeight=478&originWidth=1424&size=7158937&width=581)
+![clps.gif](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/collapse3.gif)
 
 <a name="API"></a>
 ## API[](https://yuque.antfin-inc.com/shifei.sf/wgecwq/bq316x)

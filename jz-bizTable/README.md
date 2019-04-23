@@ -6,6 +6,7 @@
 > `crud` 是中后台应用的常见操作，表格作为批量查询结果的格式化展现几乎是各模块中不可或缺的组件。`Antd-table` 已将业务中表格的纯UI部分做了很好的封装，并在 `React` 项目中广泛使用。
 > 业务实践中发现表格在`Antd-table` 之上仍有不少通用部分可以进行上层封装，以减少业务模块中大量重复逻辑。
 
+[调用与接口明细点这里](https://github.com/Fairyshi/components_framework/blob/master/jz-bizTable/README_doc.md) 
 
 <a name="341d6123"></a>
 ## 功能设计
@@ -266,11 +267,11 @@ class Demo extends React.Component {
 
 <a name="e443715c"></a>
 ### 使用效果
-![biztable1.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1549037697259-46df1a8f-9fff-43cf-986c-b8df3508209f.png#align=left&display=inline&height=372&name=biztable1.png&originHeight=890&originWidth=1784&size=143903&width=746)
+![biztable1.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/bizTable1.png)
 <a name="88e568d1"></a>
 #### 相关配置信息
 <a name="53fdb015"></a>
-### ![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1549041913694-dfbb2bc6-0f8d-47ac-8ff0-33d107a55076.png#align=left&display=inline&height=349&name=image.png&originHeight=698&originWidth=2778&size=495432&width=1389)
+### ![image.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/bizTable2.png)
 <a name="298a31bf"></a>
 ### tnpm包
  包名：@alipay/jz-bizTable<br /> 仓库地址：git@gitlab.alipay-inc.com:shifei.sf/jz-bizTable.git

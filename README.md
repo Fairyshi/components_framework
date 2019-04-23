@@ -4,9 +4,9 @@
 
 ## 组件
 ### UI组件
-- jz-bizTable：可配置表格 ✨✨✨✨
+- jz-bizTable：可配置表格 ✨✨✨
   基于 antd/Table & rc-table，面向业务层常用操作与功能进行抽象并提供配置调用接口（同时兼容各功能路径规避调用冲突），简化业务层调用，提高开发效率
-- jz-cascader-tree ✨✨✨✨
+- jz-cascader-tree ✨✨✨
 - jz-SmartSelector
 - jz-Collapse
 ### 通用组件
@@ -15,6 +15,9 @@
 ## 提效工具
 - jz-tool-copy-dva-template
 - jz-tool-copy-dva-template-demoProject
+
+## 框架
+- ![Dva 分享](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/dva_framework.pptx)
 
 ## 其他方案
 - 基于G6的转化数据 树型(方向)可视化展现Demo 

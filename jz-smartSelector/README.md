@@ -1,13 +1,13 @@
-# SmartSelector组件设计
+# SmartSelector 组件设计
 
 <a name="2fd2c8b1"></a>
 ## 主要场景
 <a name="facd2603"></a>
 ### 表的跨页选中数据的汇总预览/批量操作
-![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1546919599369-00b1735a-ca1f-4953-8349-797aa2186a06.png#align=left&display=inline&height=500&name=image.png&originHeight=1000&originWidth=1596&size=292697&width=798)
+![image.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/SmartSelector1.png)
 <a name="826fab9c"></a>
 ### 树数据的不同路径数据的汇总预览/批量操作
-![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1546920053578-44e07911-1318-4abc-83c5-0963cb50beff.png#align=left&display=inline&height=530&name=image.png&originHeight=1060&originWidth=1466&size=193879&width=733)
+![image.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/SmartSelector2.png)
 
 <a name="341d6123"></a>
 ## 功能设计
@@ -179,7 +179,7 @@ class StorePaged extends BasicStore {
 ## 功能实现
 <a name="597fd978"></a>
 ### 类图
-![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1547192972238-ef7eeeae-d056-45c1-8fa3-d16a1a7e1327.png#align=left&display=inline&height=235&name=image.png&originHeight=602&originWidth=1652&size=83810&width=646)
+![image.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/SmartSelector3.png)
 <a name="2ba87d95"></a>
 ### 目录组织
 
@@ -297,20 +297,17 @@ class Demo extends React.Component {
 <a name="e443715c"></a>
 ### 使用效果
 * 未选时
-
-![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1547189461092-0cea9842-ef8f-4cf8-b5fd-e7cf7755bdd4.png#align=left&display=inline&height=296&name=image.png&originHeight=994&originWidth=1548&size=116474&width=461)
-
+![image.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/SmartSelector4.png)
 
 * 全部选中
-
-![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1547189505719-a341dd4d-0449-43d6-a78e-e4c4a0a386f7.png#align=left&display=inline&height=319&name=image.png&originHeight=1022&originWidth=1540&size=112380&width=480)
+![image.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/SmartSelector5.png)
 * 全选状态下，外置的 选择项 消费端被点击时读取选中状态后再触发点击回调
 
-![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1547189713105-1d9ea43b-e12a-418c-9a0e-10a790695eb2.png#align=left&display=inline&height=344&name=image.png&originHeight=1340&originWidth=1884&size=363407&width=483)
+![image.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/SmartSelector6.png)
 
-![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1547453514873-4610aa2f-595a-47d8-837d-f5be27599a59.png#align=left&display=inline&height=332&name=image.png&originHeight=1174&originWidth=1704&size=156776&width=482)
+![image.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/SmartSelector7.png)
 
-![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1547453578272-33a53d7e-e36b-4f78-99bf-3011285f9269.png#align=left&display=inline&height=326&name=image.png&originHeight=1164&originWidth=1694&size=152937&width=474)
+![image.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/SmartSelector8.png)
 <a name="298a31bf"></a>
 ### tnpm包
  包名：@alipay/jz-SmartSelector<br /> 仓库地址：git@gitlab.alipay-inc.com:shifei.sf/jz-SmartSelector.git

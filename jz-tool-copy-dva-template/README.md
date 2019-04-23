@@ -1,6 +1,6 @@
 # jz-tool-copy-dva-template组件设计与实现
 
-> 浏览bigfish文档过程中，看到了  vscode-bigfish-plugin 插件，试玩了下后思考这货的场景、对比我日常开发中常用的 vscode snippets 有何好处，深思并发挥了下，做了这个工具
+> 浏览bigfish文档过程中，看到了  vscode-bigfish-plugin 插件，试玩了下后思考这货的场景、对比我日常开发中常用的 vscode snippets 有何好处，深思并发挥了下，做了这个工具 copyDva
 
 
 <a name="What"></a>
@@ -17,7 +17,7 @@
   * 准备
     * 本地先在vscode中安装 vscode-bigfish-plugin插件
   * 效果
-    * ![vscode-bigfish-plugin.gif](https://intranetproxy.alipay.com/skylark/lark/0/2019/gif/15078/1554285587375-e04d840a-5072-4bad-b9eb-13e800da1ff8.gif#align=left&display=inline&height=393&name=vscode-bigfish-plugin.gif&originHeight=496&originWidth=738&size=5160250&status=done&width=585)
+    * ![vscode-bigfish-plugin.gif](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/copyDva1.gif)
   * 存在的问题
     * 需要全面兼顾所有用户的使用场景，因而往往牺牲了很多定制性，如上图中的初始化内容较少，远不能满足实际业务的需求如不能做项目级的配置(也可能以本地配置文件方式解)
     * 如果是定制的插件需要投入人力开发，与发布审核等各种流程，耗时耗力
@@ -26,7 +26,7 @@
   * 准备
     * 本地先在vscode中配置好常用 模版/操作 的snippet
   * 效果
-    * ![vscode-snippets-demo.gif](https://intranetproxy.alipay.com/skylark/lark/0/2019/gif/15078/1554291158517-ced3ee17-4ce3-4663-8d9e-285535b468dc.gif#align=left&display=inline&height=634&name=vscode-snippets-demo.gif&originHeight=688&originWidth=636&size=7578570&status=done&width=586)
+    * ![vscode-snippets-demo.gif](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/copyDva2.gif)
   * 存在的问题
     * 只能解决内容问题，目录/文件的创建仍然需要用户手动操作，如gif中的命令 `mkdir hehe && cd hehe` 、 `touch common.jsx pure.jsx` ，新建较少时没什么体感，但一旦躲起来着实繁琐
 * 针对常用文档维护项目级/团队级模版，按需人肉拷贝
@@ -113,27 +113,27 @@ tnpm i @alipay/jz-tool-copy-dva-template --save
   * `.copyconfig.json`  中不指定 src的内容
 * 执行 `npm run copyTemplate` ：
   * 执行前
-    * ![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1554295647775-26e5a340-befd-436b-8352-ff6708547f37.png#align=left&display=inline&height=49&name=image.png&originHeight=98&originWidth=174&size=7574&status=done&width=87)
+    * ![image.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/copyDva3.png)
   * 执行后
-    * 类组件模版的产物<br />![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1554295861022-11d618b1-64dc-443f-894a-c383e6b35418.png#align=left&display=inline&height=425&name=image.png&originHeight=850&originWidth=1159&size=233133&status=done&width=580)
+    * 类组件模版的产物<br />![image.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/copyDva4.png)
     * page/Crud/List.jsx的产物（对应常用列表查询与操作类的场景）
 
-                   ![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1554296171936-821901ec-75a1-4741-92af-a6498a637397.png#align=left&display=inline&height=474&name=image.png&originHeight=1004&originWidth=1207&size=349125&status=done&width=570)
+                   ![image.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/copyDva5.png)
     * page/Crud/List.jsx的产物（对应常用列表查询与操作类的场景）
 
-                   ![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1554296432500-44474625-400a-41f6-9d41-253d4727a706.png#align=left&display=inline&height=483&name=image.png&originHeight=1007&originWidth=1188&size=327045&status=done&width=570)
+                   ![image.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/copyDva6.png)
     * service/@todo.js的产物
 
-                   ![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1554296517864-4b30268a-fd87-44a3-98b7-9416ddaa0d1c.png#align=left&display=inline&height=361&name=image.png&originHeight=720&originWidth=689&size=162490&status=done&width=345)
+                   ![image.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/copyDva7.png)
 <a name="ea56dc19"></a>
 #### 栗子-内置模版部分拷贝&占位符替换
-![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1554296883949-f7b5168f-63fd-425a-8383-1f7f449cd67a.png#align=left&display=inline&height=479&name=image.png&originHeight=1025&originWidth=1257&size=312807&status=done&width=588)
+![image.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/copyDva8.png)
 <a name="5a670aa9"></a>
 #### 栗子-用户自定义模版全量拷贝&占位符替换
-![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1554297412794-02d373ec-cb07-4a3b-87d9-b459d324aa20.png#align=left&display=inline&height=441&name=image.png&originHeight=907&originWidth=1212&size=279613&status=done&width=589)
+![image.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/copyDva9.png)
 <a name="4b9c2e04"></a>
 #### 栗子-用户自定义模版部分拷贝&占位符替换
-![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15078/1554297170804-019490b0-3940-4a67-9a75-266f9b465a49.png#align=left&display=inline&height=273&name=image.png&originHeight=546&originWidth=1206&size=185384&status=done&width=603)
+![image.png](https://raw.githubusercontent.com/Fairyshi/components_framework/master/assets/copyDva10.png)
 <a name="1f11ebe6"></a>
 #### 栗子-普通文件拷贝
 参考 “栗子-用户自定义模版全量拷贝&占位符替换” ，除去占位符替换功能即可

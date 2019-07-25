@@ -1,0 +1,46 @@
+## Bug Report Template
+### Title ###
+A clear and concise description of what the bug is.
+e.g., A page crashs on searching with keyword on admin account
+
+### Platform/Environment
+dev1 / dev2 / stage1 / stage2 / prod...
+
+### Account info
+<span style="background:yellow">not required, but please fill when it only present for specific account or roles</span>
+
+### URL
+<span style="background:yellow">not required</span>
+- Actual Result URL
+- Expected Result URL (with account info ?)
+
+---
+
+### Actual behavior ###
+A clear and concise description of what you expected to happen.
+#### Screenshots ####
+If applicable, add screenshots to help explain your problem.
+
+---
+
+### Expected behavior ###
+A clear and concise description of what you expected to happen.
+#### Screenshots ####
+If applicable, add screenshots to help explain your problem.
+
+---
+
+### To Reproduce ###
+<span style="background:yellow">ignore it if there are many steps and describe face to face.</span>
+
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
+
+### Additional context/notes ###
+e.g: only for specific account 
+
+### refs
+- https://www.softwaretestinghelp.com/how-to-write-good-bug-report/
